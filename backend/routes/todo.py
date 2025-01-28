@@ -1,7 +1,7 @@
 from fastapi import APIRouter, HTTPException
 from typing import List
-from schemas.todo import TodoSchema
-from crud.todo import create_todo, get_all_todos, get_todo, update_todo, delete_todo
+from ..schemas.todo import TodoSchema
+from ..crud.todo import create_todo, get_all_todos, get_todo, update_todo, delete_todo
 
 router = APIRouter()
 
